@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Declared Vars To Go Here -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Metadata -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" href="mysource_files/favicon.ico">
+
+    <!-- Page Name and Site Name -->
+    <title>Golang Simple CRM Backend.</title>
+
+    <!-- CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="mysource_files/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="header clearfix" style="background-color: #ffffff">
+
+        <!-- Main Menu -->
+
+
+        <!-- Site Name -->
+        <h1 class="h3 text-muted">Golang Simple CRM Backend.</h1>
+
+
+
+    </header>
+
+
+
+    <div class="row">
+
+        <div class="col-sm-3">
+
+
+
+        </div>
+
+        <div class="col-sm-6">
+
+            <div class="page-contents">
+
+                <!-- Design Body -->
+                <h2>Brief overview of the API</h2>
+                <p>This simple backend system implements a CRUD API on top of a map type structure.</p>
+                <p>This map will store elements of custom type defined in the following structure:</p>
+                <xmp>
+                type Customer struct {
+                    Id        string `json:"id"`
+                    Name      string `json:"name"`
+                    Role      string `json:"role"`
+                    Email     string `json:"email"`
+                    Phone     int    `json:"phone"`
+                    Contacted bool   `json:"contacted"`
+                }</xmp>
+                <p>A group of five elements will be created automatically on system strartup.</p>
+                <p><br /><br /><br /></p>
+
+                <h4>Getting all customers</h4>
+                <p>Using a GET method on the following path the information about all customers will be retrieved.</p>
+                <xmp>
+                    /customers
+                </xmp>
+                <p><br /><br /><br /></p>
+
+                <h4>Getting a single customer</h4>
+                <p>Using a GET method on the following path the information about a customer will be retrieved.</p>
+                <p>The customer's Id must be provided as part of the URL</p>
+                <xmp>
+                    /customers/{id}
+                </xmp>
+                <p><br /><br /><br /></p>
+
+                <h4>Creating a customer</h4>
+                <p>Using a POST method on the following path the information about a customer will be update.</p>
+                <xmp>
+                    /customers
+                </xmp>
+                <p>In addition a request body with the following format, must be provided:</p>
+                <xmp>
+                    {
+                    "name": "Updated Name",
+                    "role": "Updated Role",
+                    "email": "Updated Email",
+                    "phone": integer,
+                    "contacted": boolean
+                    }
+                </xmp>
+                <p><br /><br /><br /></p>
+
+                <h4>Updating a customer</h4>
+                <p>Using a PATCH method on the following path the information about a customer will be update.</p>
+                <p>The customer's Id must be provided as part of the URL</p>
+                <xmp>
+                    /customers/{id}
+                </xmp>
+                <p><br /></p>
+                <p>In addition a request body with the following format, must be provided:</p>
+                <xmp>
+                    {
+                    "name": "Updated Name",
+                    "role": "Updated Role",
+                    "email": "Updated Email",
+                    "phone": integer,
+                    "contacted": boolean
+                    }
+                </xmp>
+                <p><br /><br /><br /></p>
+
+                <h4>Deleting a customer</h4>
+                <p>Using a DELETE method on the following path the information about a customer will be deletd.</p>
+                <p>The customer's Id must be provided as part of the URL</p>
+                <xmp>
+                    /customers/{id}
+                </xmp>
+                <p><br /><br /><br /></p>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <footer class="footer">
+        <p class="pull-right">
+            <!-- Last Updated Design Area-->
+            Last Updated: Wednesday, November 23, 2022
+        </p>
+        <p>&copy; 2022 Fede Ruiz.</p>
+        <p>Based on <a href="https://matrix.squiz.net/manuals/designs/appendices/appendix-example-static-html-file">Example Static HTML FIle</a></p>
+    </footer>
+
+</div> <!-- /container -->
+
+</body>
+</html>

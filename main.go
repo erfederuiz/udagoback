@@ -122,6 +122,10 @@ func deleteCustomer(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+func showInfoPage(w http.ResponseWriter, r *http.Request) {
+	http.ServeFile(w, r, "./static/index.html")
+}
+
 func main() {
 	// TODO
 	customersData := []Customer{{Id: "1", Name: "Ono", Role: "Ono role", Email: "Ono mail", Phone: 1111111, Contacted: false},
@@ -147,11 +151,13 @@ func main() {
 	fmt.Println(string(jsonData))
 
 	router := mux.NewRouter()
+	http.Handle("/", http.FileServer(http.Dir("./static")))
 	router.HandleFunc("/customers", getCustomers).Methods("GET")
 	router.HandleFunc("/customers/{id}", getCustomer).Methods("GET")
 	router.HandleFunc("/customers", addCustomer).Methods("POST")
 	router.HandleFunc("/customers/{id}", updateCustomer).Methods("PATCH")
 	router.HandleFunc("/customers/{id}", deleteCustomer).Methods("DELETE")
+	router.HandleFunc("/", showInfoPage).Methods("GET")
 
 	fmt.Println("Server is starting on port 3000...")
 	// Pass the customer router into ListenAndServe
