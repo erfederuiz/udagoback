@@ -1,6 +1,6 @@
 # Udacity Golang CRM Backend project.
 
-Implementation in Golang of the CRM backend project following the requirements detailed in [Named Link](https://review.udacity.com/#!/rubrics/4856/view "Proyect Rubrik")
+Implementation in Golang of the CRM backend project following the requirements detailed in [Proyect Rubrik](https://review.udacity.com/#!/rubrics/4856/view "Proyect Rubrik")
 
 The project is implemented in the main.go file
 The dependencies are the following:
