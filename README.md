@@ -22,14 +22,14 @@ For the creation of a customer, the generation of the id that it must have has b
 A timestamp created using the time module will be used as id
 
 
-![Test image 01](https://github.com/erfederuiz/udagoback/tree/main/images/01_20220125_ 2022-11-23_14.42.22.png)
+![picture alt](https://github.com/erfederuiz/udagoback/tree/main/images/01_20220125_ 2022-11-23_14.42.22.png)
 
-![Test image 02](https://github.com/erfederuiz/udagoback/tree/main/images/02_20220125_ 2022-11-23_14.45.11.png)
+![picture alt](https://github.com/erfederuiz/udagoback/tree/main/images/02_20220125_ 2022-11-23_14.45.11.png)
 
-![Test image 03](https://github.com/erfederuiz/udagoback/tree/main/images/03_20220125_ 2022-11-23_14.45.28.png)
+![picture alt](https://github.com/erfederuiz/udagoback/tree/main/images/03_20220125_ 2022-11-23_14.45.28.png)
 
-![Test image 04](https://github.com/erfederuiz/udagoback/tree/main/images/04_20220125_ 2022-11-23_14.47.40.png)
+![picture alt](https://github.com/erfederuiz/udagoback/tree/main/images/04_20220125_ 2022-11-23_14.47.40.png)
 
-![Test image 05](https://github.com/erfederuiz/udagoback/tree/main/images/05_20220125_ 2022-11-23_14.48.01.png)
+![picture alt](https://github.com/erfederuiz/udagoback/tree/main/images/05_20220125_ 2022-11-23_14.48.01.png)
 
-![Test image 06](https://github.com/erfederuiz/udagoback/tree/main/images/06_20220125_ 2022-11-23_14.48.28.png)
+![picture alt](https://github.com/erfederuiz/udagoback/tree/main/images/06_20220125_ 2022-11-23_14.48.28.png)
