@@ -24,12 +24,12 @@ A timestamp created using the time module will be used as id
 
 ![picture alt](https://github.com/erfederuiz/udagoback/blob/main/images/01_20220125_%202022-11-23_14.42.22.png)
 
-![picture alt](https://github.com/erfederuiz/udagoback/blob/main/images/02_20220125_ 2022-11-23_14.45.11.png)
+![picture alt](https://github.com/erfederuiz/udagoback/blob/main/images/02_20220125_%202022-11-23_14.45.11.png)
 
-![picture alt](https://github.com/erfederuiz/udagoback/blob/main/images/03_20220125_ 2022-11-23_14.45.28.png)
+![picture alt](https://github.com/erfederuiz/udagoback/blob/main/images/03_20220125_%202022-11-23_14.45.28.png)
 
-![picture alt](https://github.com/erfederuiz/udagoback/blob/main/images/04_20220125_ 2022-11-23_14.47.40.png)
+![picture alt](https://github.com/erfederuiz/udagoback/blob/main/images/04_20220125_%202022-11-23_14.47.40.png)
 
-![picture alt](https://github.com/erfederuiz/udagoback/blob/main/images/05_20220125_ 2022-11-23_14.48.01.png)
+![picture alt](https://github.com/erfederuiz/udagoback/blob/main/images/05_20220125_%202022-11-23_14.48.01.png)
 
-![picture alt](https://github.com/erfederuiz/udagoback/blob/main/images/06_20220125_ 2022-11-23_14.48.28.png)
+![picture alt](https://github.com/erfederuiz/udagoback/blob/main/images/06_20220125_%202022-11-23_14.48.28.png)
