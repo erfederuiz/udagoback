@@ -22,7 +22,7 @@ For the creation of a customer, the generation of the id that it must have has b
 A timestamp created using the time module will be used as id
 
 
-![picture alt](https://github.com/erfederuiz/udagoback/tree/main/images/01_20220125_ 2022-11-23_14.42.22.png)
+![picture alt](https://github.com/erfederuiz/udagoback/blob/main/images/01_20220125_%202022-11-23_14.42.22.png)
 
 ![picture alt](https://github.com/erfederuiz/udagoback/tree/main/images/02_20220125_ 2022-11-23_14.45.11.png)
 
